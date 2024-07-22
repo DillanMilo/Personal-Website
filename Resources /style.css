@@ -117,7 +117,7 @@ margin-bottom: 100px ! important;
 /* projects */
 
 h3.tap{
-  color: #5fa698;
+  color: #8a92ad;;
   font-size: 30px;
   text-decoration: underline;
 }
@@ -139,17 +139,20 @@ h3.tap{
   text-decoration: underline;
 }
 
-.project li{
-  text-decoration: none;
-  color: #8a92ad;
-  font-family: 'Roboto Mono', monospace;
+.project p {
+  color: white;
+  font-size: large;
+}
+
+.project a {
+  color: #5fa698;
   font-size: 30px;
 }
 
-.project-image img {
-  max-width: 100%;
-  height: auto;
+.projects a:hover {
+  color: #cdd5f2;
 }
+
 /* about me (info) */
 
 #info{
