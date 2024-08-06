@@ -1,6 +1,6 @@
 import React from "react";
-import "../Global.css";
 import { useAnimation } from "../Hooks/useAnimation";
+import "../Global.css";
 
 const Home: React.FC = () => {
   const nameText = useAnimation("Dillan.", 200);
@@ -13,13 +13,13 @@ const Home: React.FC = () => {
           <nav>
             <ul>
               <li>
-                <a href="/projects">Projects</a>
+                <a href="/projects"></a>
               </li>
               <li>
-                <a href="/about">Info</a>
+                <a href="/about"></a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <a href="/contact"></a>
               </li>
             </ul>
           </nav>
