@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { useAnimation } from "../Hooks/useAnimation";
 import "../Global.css";
 
@@ -13,9 +14,9 @@ const Projects: React.FC = () => {
   return (
     <div id="projects">
       <header>
-        <a href="/" className="back-button">
+        <Link to="/" className="back-button">
           <u>Back</u>
-        </a>
+        </Link>
         <h1 className="projects">{animatedTitle}</h1>
         <br />
         <br />
