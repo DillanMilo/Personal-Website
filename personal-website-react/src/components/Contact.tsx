@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import "../Global.css";
 
 const Contact: React.FC = () => {
   return (
