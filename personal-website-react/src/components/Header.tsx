@@ -8,16 +8,16 @@ const Header: React.FC = () => {
       <nav className="navbar">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/"></Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about"></Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects"></Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact"></Link>
           </li>
         </ul>
       </nav>
