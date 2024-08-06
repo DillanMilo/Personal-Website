@@ -111,11 +111,41 @@ body {
     margin-right: 15px;
   }
   
-  /* projects */
-  h3.tap {
+  /* Projects Page */
+#projects {
+    margin: 25px;
+    background-color: #0e192d;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+  }
+  
+  .projects {
+    color: #cdd5f2;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  .tap {
     color: #8a92ad;
     font-size: 30px;
     text-decoration: underline;
+  }
+  
+  .project a {
+    color: #5fa698;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .project p {
+    color: white;
+    font-size: large;
+  }
+  
+  .project a:hover {
+    color: #cdd5f2;
   }
   
   .back-button {
@@ -127,28 +157,6 @@ body {
     font-size: 20px;
   }
   
-  #projects h1 {
-    color: #cdd5f2;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 60px;
-    font-weight: bolder;
-    margin-bottom: 5px;
-    text-decoration: underline;
-  }
-  
-  .project p {
-    color: white;
-    font-size: large;
-  }
-  
-  .project a {
-    color: #5fa698;
-    font-size: 30px;
-  }
-  
-  .projects a:hover {
-    color: #cdd5f2;
-  }
   
   /* about me (info) */
   #info {
