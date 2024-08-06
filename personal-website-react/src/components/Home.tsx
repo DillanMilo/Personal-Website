@@ -2,9 +2,13 @@ import React from "react";
 import { useAnimation } from "../Hooks/useAnimation";
 import "../Global.css";
 
+// Import images
+import twitterIcon from "../Images/x-twitter-copy.svg";
+import githubIcon from "/Users/dillanmilosevich/Personal-Website/personal-website-react/src/Images/github-3-copy.svg";
+import linkedinIcon from "/Users/dillanmilosevich/Personal-Website/personal-website-react/src/Images/linkedin-copy.svg";
+
 const Home: React.FC = () => {
   const nameText = useAnimation("Dillan.", 200);
-  const titleText = useAnimation("<Projects>", 250);
 
   return (
     <div className="body">
@@ -58,10 +62,7 @@ const Home: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src="Resources/Images/social/x-twitter.svg"
-                  alt="Twitter"
-                />
+                <img src={twitterIcon} alt="Twitter" />
               </a>
             </li>
             <li>
@@ -70,7 +71,7 @@ const Home: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="Resources/Images/social/github-3.svg" alt="GitHub" />
+                <img src={githubIcon} alt="GitHub" />
               </a>
             </li>
             <li>
@@ -79,10 +80,7 @@ const Home: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src="Resources/Images/social/linkedin.svg"
-                  alt="LinkedIn"
-                />
+                <img src={linkedinIcon} alt="LinkedIn" />
               </a>
             </li>
           </ul>
