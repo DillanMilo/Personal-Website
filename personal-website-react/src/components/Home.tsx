@@ -1,7 +1,11 @@
 import React from "react";
 import "../Global.css";
+import { useAnimation } from "../Hooks/useAnimation";
 
 const Home: React.FC = () => {
+  const nameText = useAnimation("Dillan.", 200);
+  const titleText = useAnimation("<Projects>", 250);
+
   return (
     <div className="body">
       <header>
@@ -25,7 +29,7 @@ const Home: React.FC = () => {
       <section id="intro">
         <h3>Heya, my name is</h3>
         <h1 className="name">
-          <span id="name-text">Dillan Milosevich</span>
+          <span>{nameText}</span>
         </h1>
         <h1 className="build">I build stuff on the web.</h1>
         <br />
