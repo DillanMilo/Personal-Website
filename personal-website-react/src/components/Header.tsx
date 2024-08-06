@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css"; // Ensure you create the corresponding CSS file
+import "./Header.css";
 
 const Header: React.FC = () => {
   return (
