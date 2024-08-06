@@ -1,0 +1,44 @@
+#projects {
+    margin-top: 60px;
+  }
+  
+  .projects {
+    text-decoration: underline;
+    color: #cdd5f2;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  
+  .tap {
+    color: #8a92ad;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  
+  .project {
+    list-style-type: none;
+  }
+  
+  .project li {
+    text-decoration: none;
+    color: #8a92ad;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+  }
+  
+  .project a {
+    color: #5fa698;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #5fa698;
+    font-size: 20px;
+  }
+  
