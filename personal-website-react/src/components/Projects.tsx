@@ -17,7 +17,9 @@ const Projects: React.FC = () => {
         <Link to="/" className="back-button">
           <u>Back</u>
         </Link>
-        <h1 className="projects">{animatedTitle}</h1>
+        <h1 className="projects">
+          <span id="animated-title">{animatedTitle}</span>
+        </h1>
         <br />
         <br />
       </header>

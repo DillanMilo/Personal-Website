@@ -250,14 +250,9 @@ h1.heading {
 }
 
 
-/* media query for tablets */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-}
+/* Media queries for different screen sizes */
 
-/* media query for mobile */
+/* For small devices (phones, 0px and up) */
 @media (max-width: 480px) {
   body {
     font-size: 12px;
@@ -271,8 +266,12 @@ h1.heading {
   .intro-text {
     font-size: 1.5rem;
   }
-  .projetcs h1 {
-    font-size: 1rem;
+  .projects h1 {
+    font-size: 0.5rem;
+  }
+  #animated-title {
+    font-size: 0.7em; 
+  }
   }
   h3.tap {
     font-size: 1.5rem;
@@ -284,6 +283,47 @@ h1.heading {
   }
   ul {
     padding-left: 0.5rem;
+  }
+
+
+/* For medium devices (tablets, 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .projectbutton {
+    padding: 20px;
+  }
+  #intro {
+    padding: 60px 10px;
+  }
+}
+
+/* For large devices (desktops, 769px and up) */
+@media (min-width: 769px) {
+  body {
+    font-size: 16px;
+  }
+  .projectbutton {
+    padding: 30px;
+  }
+  #intro {
+    padding: 80px 20px;
+  }
+  .projects {
+    justify-content: flex-start;
+  }
+}
+
+/* Additional styles for larger screens to prevent horizontal scrolling */
+@media (min-width: 1024px) {
+  body {
+    max-width: 100vw; /* Ensure the body does not exceed the viewport width */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  .navbar, .footer, .contacts ul {
+    max-width: 1200px; /* Optional: Set a maximum width for key elements */
+    margin: 0 auto; /* Center align key elements */
   }
 }
 
