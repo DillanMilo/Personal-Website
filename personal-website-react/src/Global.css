@@ -275,7 +275,7 @@ h1.heading {
   width: 30px;
   height: auto;
   position: relative;
-  top: 5px; /* Adjust this value to move the icon lower */
+  top: 9px; /* Adjust this value to move the icon lower */
 }
 
 /* Add spacing between text and image */
@@ -284,7 +284,7 @@ h1.heading {
 }
 
 .social-icon {
-  margin-left: 5px; /* Adjust this value to your preference */
+  margin-left: 5px; 
 }
 
 /* Media queries for different screen sizes */

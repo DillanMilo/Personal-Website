@@ -16,14 +16,13 @@ const About: React.FC = () => {
       </header>
       <section id="info-content">
         <p>
-          Welcome to my digital space! I'm Dillan, a passionate software
-          engineer on a journey to craft innovative solutions. My fascination
-          with technology is only rivaled by my love for creativity. Whether I'm
-          immersed in coding or exploring the intersection of{" "}
-          <span className="infos">design and functionality,</span> I find joy in
-          transforming ideas into tangible digital experiences. Join me as we
-          navigate the ever-evolving landscape of technology, where every line
-          of code tells a unique story.
+          Hi! I'm Dillan, a software engineer who loves blending creativity with
+          technology. My journey in tech is fueled by a passion for both coding
+          and design, allowing me to bring unique, engaging digital experiences
+          to life. Whether I'm crafting intuitive interfaces or building robust
+          backend systems, I thrive on{" "}
+          <span className="infos">innovation and collaboration.</span> Let's
+          team up and create something extraordinary together!
         </p>
         <h2 className="skillsh">
           <u>Skills</u>
