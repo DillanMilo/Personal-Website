@@ -36,10 +36,11 @@ const Projects: React.FC = () => {
           >
             Game Hub
           </a>
-          <p>
-            This is my Game Hub project, showcasing various games and features.
-          </p>
+          <p></p>
         </div>
+      </div>
+      <div className="projectdesc">
+        "This is my Game Hub project, showcasing various games and features."
       </div>
     </div>
   );
