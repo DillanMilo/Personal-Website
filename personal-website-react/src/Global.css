@@ -4,6 +4,7 @@ body {
   background-color: #0e192d;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Applies to all <h1>...</h1> elements. */
@@ -98,6 +99,7 @@ h3 {
   border: 2px solid #5fa698;
   border-radius: 10px;
   padding: 30px;
+  transition: all 0.3s ease;
 }
 
 .projectbutton a {
@@ -107,6 +109,15 @@ h3 {
 
 .projectbutton h2 {
   margin: 0;
+}
+
+/* Hover and active styles for the project button */
+.projectbutton:hover, .projectbutton:active {
+  background-color: #5fa698; /* Green background */
+}
+
+.projectbutton:hover a, .projectbutton:active a {
+  color: #333; /* Grey text */
 }
 
 #social ul {
@@ -233,22 +244,17 @@ h1.heading {
   width: 30px;
   height: auto;
   position: relative;
-  top: 10px; 
+  top: 5px; /* Adjust this value to move the icon lower */
 }
 
 /* Add spacing between text and image */
 .contact-link {
-  margin-left: 15px;
-  top: 50px;
-  
+  margin-left: 10px;
 }
 
 .social-icon {
   margin-left: 5px; /* Adjust this value to your preference */
-  position: relative;
-  top: 5px; /* Adjust this value to move the icon lower */
 }
-
 
 /* Media queries for different screen sizes */
 
@@ -267,11 +273,10 @@ h1.heading {
     font-size: 1.5rem;
   }
   .projects h1 {
-    font-size: 0.5rem;
-  }
-  #animated-title {
-    font-size: 0.7em; 
-  }
+    font-size: 1.5rem; /* Adjust font size for projects header */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Ensures no overflow */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows */
   }
   h3.tap {
     font-size: 1.5rem;
@@ -284,7 +289,7 @@ h1.heading {
   ul {
     padding-left: 0.5rem;
   }
-
+}
 
 /* For medium devices (tablets, 481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -296,6 +301,9 @@ h1.heading {
   }
   #intro {
     padding: 60px 10px;
+  }
+  .projects h1 {
+    font-size: 2rem; /* Adjust font size for projects header */
   }
 }
 
@@ -310,8 +318,8 @@ h1.heading {
   #intro {
     padding: 80px 20px;
   }
-  .projects {
-    justify-content: flex-start;
+  .projects h1 {
+    font-size: 2.5rem; /* Adjust font size for projects header */
   }
 }
 
@@ -338,5 +346,3 @@ h1.heading {
 .contacts a {
   font-size: 20px;
 }
-
-  
