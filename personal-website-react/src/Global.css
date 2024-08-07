@@ -163,7 +163,7 @@ h3 {
 }
 
 .projects {
-  color: #cdd5f2;
+  color: #5fa698;
   font-family: 'Roboto Mono', monospace;
   font-size: 60px;
   font-weight: bolder;
@@ -177,7 +177,7 @@ h3 {
 }
 
 .project a {
-  color: #5fa698;
+  color:#8a92ad; 
   font-size: 30px;
   text-decoration: none;
 }
@@ -188,7 +188,7 @@ h3 {
 }
 
 .project a:hover {
-  color: #cdd5f2;
+  color:#5fa698;
 }
 
 .back-button {
