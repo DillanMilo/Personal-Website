@@ -38,12 +38,13 @@ const Home: React.FC = () => {
         <h1 className="build">I build stuff on the web.</h1>
         <br />
         <p className="intro-text">
-          I’m a junior software engineer, weaving technology and creativity into
-          every line of code. My foundation in a creative background, coupled
-          with a love for tech, fuels my enthusiasm for software engineering.
-          Building isn’t just a task; it’s a statement. Join me in the realm of
-          possibilities as we transform your ideas into
-          <span> tangible solutions.</span>
+          I’m a passionate software engineer dedicated to bridging creativity
+          and technology. With a background steeped in both artistic and
+          technical disciplines, I thrive on transforming innovative ideas into
+          dynamic web experiences. From sleek, interactive interfaces to robust,
+          scalable solutions, I’m committed to crafting digital works that make
+          a lasting impact. Let’s collaborate and bring your vision to life with
+          <span> precision and flair.</span>
         </p>
         <br />
         <div className="projectbutton">
