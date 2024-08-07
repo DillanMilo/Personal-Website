@@ -53,6 +53,28 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #5fa698;
+  transition: text-decoration-color 0.3s ease;
+}
+nav ul li a:hover,
+nav ul li a:active {
+  text-decoration: underline;
+  text-decoration-color: #5fa698; 
+}
+
+nav ul li a.projects:hover,
+nav ul li a.projects:active {
+  text-decoration: underline;
+  text-decoration-color: #5fa698; 
+}
+nav ul li a.info:hover,
+nav ul li a.info:active {
+  text-decoration: underline;
+  text-decoration-color: #8a92ad; 
+}
+nav ul li a.contact:hover,
+nav ul li a.contact:active {
+  text-decoration: underline;
+  text-decoration-color: #cdd5f2; 
 }
 
 /* body */
