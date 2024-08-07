@@ -34,13 +34,13 @@ const Projects: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Game Hub
+            -Game Hub
           </a>
           <p></p>
         </div>
       </div>
       <div className="projectdesc">
-        "This is my Game Hub project, showcasing various games and features."
+        This is my Game Hub project, showcasing various games and features.
       </div>
     </div>
   );

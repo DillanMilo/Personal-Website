@@ -165,14 +165,13 @@ h3 {
 .projects {
   color: #5fa698;
   font-family: 'Roboto Mono', monospace;
-  font-size: 60px;
+  font-size: 50px;
   font-weight:normal;
   text-decoration: underline;
-  list-style-type:circle;
 }
 .projectdesc {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #8a92ad;
 }
 
@@ -301,11 +300,12 @@ h1.heading {
     font-size: 1.5rem;
   }
   .projects h1 {
-    font-size: 1.5rem; /* Adjust font size for projects header */
+    font-size: 1rem; /* Adjust font size for projects header */
     white-space: nowrap; /* Prevents text from wrapping */
     overflow: hidden; /* Ensures no overflow */
     text-overflow: ellipsis; /* Adds ellipsis if text overflows */
   }
+
   h3.tap {
     font-size: 1.5rem;
   }
