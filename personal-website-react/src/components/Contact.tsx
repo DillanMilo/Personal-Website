@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
         <h1 className="heading">Contact</h1>
       </header>
       <br />
-      <body>
+      <div className="contact-body">
         <p className="outro">
           Let's turn your ideas into digital masterpieces! Whether it's coding
           magic or turning coffee into code, I'm here for it.
@@ -35,47 +35,49 @@ const Contact: React.FC = () => {
             <br />
             <li>
               <strong>Shoot me a DM on </strong>
-              <a
-                href="https://twitter.com/dillanx1x"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={twitterIcon}
-                  alt="Twitter"
-                  style={{ marginLeft: "10px" }}
-                />
-              </a>
+              <span className="contact-link">
+                <a
+                  href="https://twitter.com/dillanx1x"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={twitterIcon} alt="Twitter" />
+                </a>
+              </span>
             </li>
             <br />
             <br />
             <li>
               Come over to
-              <a
-                href="https://github.com/dashboard"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={githubIcon} alt="GitHub" />
-              </a>
+              <span className="contact-link">
+                <a
+                  href="https://github.com/dashboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
+              </span>
             </li>
             <br />
             <br />
             <li>
               Say "hey" on
-              <a
-                href="https://www.linkedin.com/feed/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={linkedinIcon} alt="LinkedIn" />
-              </a>
+              <span className="contact-link">
+                <a
+                  href="https://www.linkedin.com/feed/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={linkedinIcon} alt="LinkedIn" />
+                </a>
+              </span>
             </li>
             <br />
             <br />
           </ul>
         </div>
-      </body>
+      </div>
     </div>
   );
 };

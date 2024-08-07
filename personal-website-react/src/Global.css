@@ -1,293 +1,302 @@
 /* Applies to the entire body of the HTML document (except where overridden by more specific selectors). */
 body {
-    margin: 25px;
-    background-color: #0e192d;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
-  }
-  
-  /* Applies to all <h1>...</h1> elements. */
-  h1 {
-    font-size: 35px;
-    font-weight: normal;
-    margin-top: 5px;
-  }
-  
-  /* Applies to all elements with <... class="someclass"> specified. */
-  .someclass { color: red; }
-  
-  /* Applies to the element with <... id="someid"> specified. */
-  #someid { color: green; }
+  margin: 25px;
+  background-color: #0e192d;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+}
 
-  /* Back Button */
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* Applies to all elements with <... class="someclass"> specified. */
+.someclass { color: red; }
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: green; }
+
+/* Back Button */
 .back-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    text-decoration: none;
-    color: #5fa698;
-    font-size: 20px;
-  }
-  
-  
-  /* navbar */
-  .navbar {
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 15px;
-    font-family: 'Roboto Mono', monospace;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #5fa698;
-  }
-  
-  /* body */
-  #intro {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    padding: 80px 20px;
-    font-family: 'Roboto Mono', monospace;
-  }
-  
-  h1.name {
-    color: #cdd5f2;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 80px;
-    font-weight: bolder;
-    margin-bottom: 5px;
-  }
-  
-  h3 {
-    color: #5fa698;
-    font-size: 20px;
-  }
-  
-  .intro-text {
-    color: #8a92ad;
-    font-size: 25px;
-    margin-bottom: 100px !important;
-  }
-  
-  .intro-text span {
-    color: #5fa698;
-  }
-  
-  .build {
-    color: #8a92ad;
-    font-size: 80px;
-    font-weight: bold;
-    margin-top: 0;
-  }
-  
-  .projectbutton {
-    border: 2px solid #5fa698;
-    border-radius: 10px;
-    padding: 30px;
-  }
-  
-  .projectbutton a {
-    text-decoration: none;
-    color: #5fa698;
-  }
-  
-  .projectbutton h2 {
-    margin: 0;
-  }
-  
-  #social ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  #social ul li {
-    display: inline-block;
-    margin-right: 15px;
-  }
-  
-  /* Other styles */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #5fa698;
+  font-size: 20px;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5fa698;
+}
+
+/* body */
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 80px 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1.name {
+  color: #cdd5f2;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 80px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+h3 {
+  color: #5fa698;
+  font-size: 20px;
+}
+
+.intro-text {
+  color: #8a92ad;
+  font-size: 25px;
+  margin-bottom: 100px !important;
+}
+
+.intro-text span {
+  color: #5fa698;
+}
+
+.build {
+  color: #8a92ad;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.projectbutton {
+  border: 2px solid #5fa698;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.projectbutton a {
+  text-decoration: none;
+  color: #5fa698;
+}
+
+.projectbutton h2 {
+  margin: 0;
+}
+
+#social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#social ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
 
 /* Projects Page */
 #projects {
-    margin: 25px;
-    background-color: #0e192d;
-    font-family: 'Roboto Mono', monospace;
+  margin: 25px;
+  background-color: #0e192d;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+}
+
+.projects {
+  color: #cdd5f2;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 60px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.tap {
+  color: #8a92ad;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.project a {
+  color: #5fa698;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.project p {
+  color: white;
+  font-size: large;
+}
+
+.project a:hover {
+  color: #cdd5f2;
+}
+
+.back-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #5fa698;
+  font-size: 20px;
+}
+
+/* about me (info) */
+#info {
+  margin-top: 60px;
+}
+
+.skillsh {
+  text-decoration: none;
+  color: #8a92ad;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+}
+
+span.infos {
+  color: #5fa698;
+}
+
+.skills {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+}
+
+#info-content p {
+  color: aliceblue;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+.infotitle {
+  color: #8a92ad;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* contact page */
+.outro {
+  color: #8a92ad;
+  font-size: 30px;
+}
+
+.contacts ul li {
+  list-style: none;
+  color: #cdd5f2;
+  font-size: 30px;
+}
+
+h1.heading {
+  color: #5fa698;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.contacts a {
+  color: #5fa698;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  color: #cdd5f2;
+  text-decoration: none;
+}
+
+.contacts ul li img {
+  width: 30px;
+  height: auto;
+  position: relative;
+  top: 10px; 
+}
+
+/* Add spacing between text and image */
+.contact-link {
+  margin-left: 15px;
+  top: 50px;
+  
+}
+
+.social-icon {
+  margin-left: 5px; /* Adjust this value to your preference */
+  position: relative;
+  top: 5px; /* Adjust this value to move the icon lower */
+}
+
+
+/* media query for tablets */
+@media (max-width: 768px) {
+  body {
     font-size: 14px;
   }
-  
-  .projects {
-    color: #cdd5f2;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 60px;
-    font-weight: bolder;
-  }
-  
-  .tap {
-    color: #8a92ad;
-    font-size: 30px;
-    text-decoration: underline;
-  }
-  
-  .project a {
-    color: #5fa698;
-    font-size: 30px;
-    text-decoration: none;
-  }
-  
-  .project p {
-    color: white;
-    font-size: large;
-    text-decoration: underline;
-  }
-  
-  .project a:hover {
-    color: #cdd5f2;
-  }
-  
-  .back-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    text-decoration: none;
-    color: #5fa698;
-    font-size: 20px;
-  }
-  
-  /* Other styles */
-  
-  
-  /* about me (info) */
-  #info {
-    margin-top: 60px;
-  }
-  
-  .skillsh {
-    text-decoration: none;
-    color: #8a92ad;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
-  }
-  
-  span.infos {
-    color: #5fa698;
-  }
-  
-  .skills {
-    text-decoration: none;
-    color: aliceblue;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
-  }
-  
-  #info-content p {
-    color: aliceblue;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-  }
-  
-  .infotitle {
-    color: #8a92ad;
-    font-family: 'Roboto Mono', monospace;
-  }
-  
-  /* contact page */
-  .outro {
-    color: #8a92ad;
-    font-size: 30px;
-  }
-  
-  .contacts ul li {
-    list-style: none;
-    color: #cdd5f2;
-    font-size: 30px;
-  }
-  
-  h1.heading {
-    color: #5fa698;
-    text-decoration: underline;
-    font-size: 30px;
-  }
-  
-  .contacts a {
-    color: #5fa698;
-    text-decoration: none;
-  }
-  
-  .contacts a:hover {
-    color: #cdd5f2;
-    text-decoration: none;
-  }
-  
-  .contacts ul li img {
-    width: 30px;
-    height: auto;
-  }
-  
-  /* media query for tablets */
-  @media (max-width: 768px) {
-    body {
-      font-size: 14px;
-    }
-  }
-  
-  /* media query for mobile */
-  @media (max-width: 480px) {
-    body {
-      font-size: 12px;
-    }
-    h1.name {
-      font-size: 5em;
-    }
-    h1.build {
-      font-size: 5em;
-    }
-    .intro-text {
-      font-size: 1.5rem;
-    }
-    .projetcs h1 {
-      font-size: 1rem;
-    }
-    h3.tap {
-      font-size: 1.5rem;
-    }
-    .skills {
-      font-size: 1.2rem;
-      margin-left: 0;
-      padding-left: -1rem;
-    }
-    ul {
-      padding-left: 0.5rem;
-    }
-  }
-  
-  .outro {
-    font-size: 20px;
-  }
-  
-  .contacts ul li {
-    font-size: 20px;
-  }
-  
-  .contacts a {
-    font-size: 20px;
-  }
+}
 
-  
+/* media query for mobile */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+  h1.name {
+    font-size: 5em;
+  }
+  h1.build {
+    font-size: 5em;
+  }
+  .intro-text {
+    font-size: 1.5rem;
+  }
+  .projetcs h1 {
+    font-size: 1rem;
+  }
+  h3.tap {
+    font-size: 1.5rem;
+  }
+  .skills {
+    font-size: 1.2rem;
+    margin-left: 0;
+    padding-left: -1rem;
+  }
+  ul {
+    padding-left: 0.5rem;
+  }
+}
+
+.outro {
+  font-size: 20px;
+}
+
+.contacts ul li {
+  font-size: 20px;
+}
+
+.contacts a {
+  font-size: 20px;
+}
+
   
