@@ -27,6 +27,8 @@ const Projects: React.FC = () => {
       <h3 className="tap">Tap on any below to view</h3>
       <br />
       <br />
+      <br />
+      <br />
       <div className="projects">
         <div className="project">
           <a
