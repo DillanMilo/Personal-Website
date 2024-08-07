@@ -212,6 +212,58 @@ h3 {
   font-size: 20px;
 }
 
+/* Projects Buttons */
+.projectbutton {
+  border: 2px solid #5fa698;
+  border-radius: 10px;
+  padding: 15px; /* Adjusted padding to make it smaller */
+  transition: all 0.3s ease;
+}
+
+.projectbutton a {
+  text-decoration: none;
+  color: #5fa698;
+  font-size: 18px; /* Adjusted font size to make it smaller */
+}
+
+.projectbutton h2 {
+  margin: 0;
+}
+
+.projectbutton:hover {
+  background-color: #5fa698;
+  color: #0e192d;
+}
+
+.projectbutton:hover a {
+  color: #0e192d;
+}
+
+.project-box {
+  border: 2px solid #5fa698;
+  border-radius: 10px;
+  padding: 15px; /* Adjusted padding to make it smaller */
+  transition: all 0.3s ease;
+  margin: 20px 0; /* Adjust as needed */
+}
+
+.project-box a {
+  text-decoration: none;
+  color: #5fa698;
+  font-size: 18px; /* Adjusted font size to make it smaller */
+}
+
+.project-box:hover {
+  background-color: #5fa698;
+  color: #0e192d;
+}
+
+.project-box:hover a {
+  color: #0e192d;
+}
+
+
+
 /* about me (info) */
 #info {
   margin-top: 60px;
