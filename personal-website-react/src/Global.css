@@ -167,7 +167,7 @@ h3 {
   font-family: 'Roboto Mono', monospace;
   font-size: 50px;
   font-weight:normal;
-  text-decoration: underline;
+  
 }
 .projectdesc {
   text-decoration: none;
@@ -175,6 +175,10 @@ h3 {
   color: #8a92ad;
 }
 
+.game-hub {
+  text-decoration: underline;
+  color: #8a92ad;
+}
 .tap {
   color: #8a92ad;
   font-size: 30px;
@@ -192,7 +196,7 @@ h3 {
   font-size: large;
 }
 
-.project a:hover {
+.game-hub:hover {
   color:#5fa698;
 }
 

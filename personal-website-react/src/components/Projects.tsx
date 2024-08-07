@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            -Game Hub
+            <div className="game-hub">-Game Hub</div>
           </a>
           <p></p>
         </div>
