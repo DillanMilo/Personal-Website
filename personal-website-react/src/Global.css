@@ -52,7 +52,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #5fa698;
+  color: #86ecd7;
   transition: text-decoration-color 0.3s ease;
 }
 nav ul li a:hover,
@@ -105,12 +105,12 @@ nav ul li a:focus::before {
 
 nav ul li a.projects:hover,
 nav ul li a.projects:focus {
-  color: #5fa698;
+  color: #96f2df;
 }
 
 nav ul li a.projects:hover::before,
 nav ul li a.projects:focus::before {
-  background-color: #5fa698;
+  background-color: #9ceddd;
 }
 
 nav ul li a.info:hover,
@@ -233,7 +233,7 @@ h3 {
   color: #8a92ad;
 }
 .project-desc {
-  font-size: 2rem; 
+  font-size: 1.5rem; 
   color: white;
 }
 
@@ -261,7 +261,7 @@ h3 {
 }
 
 .game-hub:hover {
-  color:#5fa698;
+  color:#1157a7;
 }
 
 .back-button {
@@ -292,12 +292,12 @@ h3 {
 }
 
 .projectbutton:hover {
-  background-color: #5fa698;
+  background-color: #3582d9;
   color: #0e192d;
 }
 
 .projectbutton:hover a {
-  color: #0e192d;
+  color: #3582d9;
 }
 
 .project-box {
@@ -316,11 +316,11 @@ h3 {
 
 .project-box:hover {
   background-color: #5fa698;
-  color: #0e192d;
+  color: #3582d9;
 }
 
 .project-box:hover a {
-  color: #0e192d;
+  color: #3582d9;
 }
 
 
