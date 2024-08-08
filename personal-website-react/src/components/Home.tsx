@@ -8,7 +8,7 @@ import githubIcon from "/Users/dillanmilosevich/Personal-Website/personal-websit
 import linkedinIcon from "/Users/dillanmilosevich/Personal-Website/personal-website-react/src/Images/linkedin-copy.svg";
 
 const Home: React.FC = () => {
-  const nameText = useAnimation("Dillan.", 200);
+  const nameText = useAnimation("DDillan.", 200);
 
   return (
     <div className="body">

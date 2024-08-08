@@ -5,17 +5,19 @@ export const useAnimation = (text: string, delay: number) => {
 
   useEffect(() => {
     let index = 0;
+    setAnimatedText(''); // Reset the animated text before starting
 
-    const animate = () => {
-      if (index < text.length) {
-        setAnimatedText((prev) => prev + text.charAt(index));
-        index++;
-        setTimeout(animate, delay);
+    const interval = setInterval(() => {
+      setAnimatedText((prev) => prev + text.charAt(index));
+      index++;
+      if (index >= text.length) {
+        clearInterval(interval);
       }
-    };
+    }, delay);
 
-    animate();
+    return () => clearInterval(interval); // Clean up the interval on component unmount
   }, [text, delay]);
 
   return animatedText;
 };
+
