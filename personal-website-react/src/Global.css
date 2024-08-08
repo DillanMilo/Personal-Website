@@ -28,7 +28,31 @@ h1 {
   text-decoration: none;
   color: #5fa698;
   font-size: 20px;
+  position: relative;
+  transition: color 0.3s ease;
 }
+.back-button::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #5fa698;
+  transition: all 0.6s ease;
+}
+
+.back-button:hover::before,
+.back-button:focus::before {
+  width: 100%;
+  left: 0;
+}
+
+.back-button:hover,
+.back-button:focus {
+  color: #83e8d3;
+}
+
 
 /* navbar */
 .navbar {
@@ -76,7 +100,6 @@ nav ul li a.contact:active {
   text-decoration: underline;
   text-decoration-color: #cdd5f2; 
 }
-/* Add to the end of your existing navbar styles */
 
 /* Animate underline from center */
 nav ul li a {
@@ -175,7 +198,7 @@ h3 {
 }
 
 .projectbutton {
-  border: 2px solid #5fa698;
+  border: 1rem solid #5fa698;
   border-radius: 10px;
   padding: 30px;
   transition: all 0.3s ease;
@@ -292,8 +315,8 @@ h3 {
 }
 
 .projectbutton:hover {
-  background-color: #3582d9;
-  color: #0e192d;
+  background-color: #5fa698;
+  color: #3582d9;
 }
 
 .projectbutton:hover a {
@@ -316,12 +339,8 @@ h3 {
 
 .project-box:hover {
   background-color: #5fa698;
-  color: #3582d9;
 }
 
-.project-box:hover a {
-  color: #3582d9;
-}
 
 
 
@@ -481,6 +500,7 @@ h1.heading {
   }
   .projectbutton {
     padding: 30px;
+    border-width: 0.2rem;
   }
   #intro {
     padding: 80px 20px;
