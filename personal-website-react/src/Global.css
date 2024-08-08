@@ -175,6 +175,10 @@ h3 {
   font-size: 20px;
   color: #8a92ad;
 }
+.project-desc {
+  font-size: 2rem; 
+  color: white;
+}
 
 .game-hub {
   text-decoration: underline;
@@ -212,9 +216,9 @@ h3 {
   font-size: 20px;
 }
 
-/* Projects Buttons */
+/* Game-Hub Projects Box */
 .projectbutton {
-  border: 2px solid #5fa698;
+  border: 1rem solid #5fa698;
   border-radius: 10px;
   padding: 15px; /* Adjusted padding to make it smaller */
   transition: all 0.3s ease;
@@ -250,7 +254,7 @@ h3 {
 .project-box a {
   text-decoration: none;
   color: #5fa698;
-  font-size: 18px; /* Adjusted font size to make it smaller */
+  font-size: 2rem; /* Adjusted font size to make it smaller */
 }
 
 .project-box:hover {
@@ -359,10 +363,10 @@ h1.heading {
     font-size: 1.5rem;
   }
   .projects h1 {
-    font-size: 1rem; /* Adjust font size for projects header */
-    white-space: nowrap; /* Prevents text from wrapping */
-    overflow: hidden; /* Ensures no overflow */
-    text-overflow: ellipsis; /* Adds ellipsis if text overflows */
+    font-size: 1rem; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
   }
 
   h3.tap {
@@ -376,7 +380,16 @@ h1.heading {
   ul {
     padding-left: 0.5rem;
   }
+  .project-desc {
+    font-size: 1rem; 
+    color: white;
+  }
+  .projectbutton {
+    padding: 1rem; 
+    transition: all 0.3s ease;
+  }
 }
+
 
 /* For medium devices (tablets, 481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
