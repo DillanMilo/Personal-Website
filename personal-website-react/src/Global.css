@@ -57,18 +57,18 @@ nav ul li a {
 }
 nav ul li a:hover,
 nav ul li a:active {
-  text-decoration: underline;
-  text-decoration-color: #5fa698; 
+  text-decoration:none;
+  text-decoration-color: #83e8d3; 
 }
 
 nav ul li a.projects:hover,
 nav ul li a.projects:active {
-  text-decoration: underline;
-  text-decoration-color: #5fa698; 
+  text-decoration: none;
+  text-decoration-color: #83e8d3; 
 }
 nav ul li a.info:hover,
 nav ul li a.info:active {
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: #8a92ad; 
 }
 nav ul li a.contact:hover,
@@ -76,6 +76,63 @@ nav ul li a.contact:active {
   text-decoration: underline;
   text-decoration-color: #cdd5f2; 
 }
+/* Add to the end of your existing navbar styles */
+
+/* Animate underline from center */
+nav ul li a {
+  position: relative;
+  color: #5fa698; /* Default link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #5fa698; /* Default underline color */
+  transition: all 0.6s ease;
+}
+
+nav ul li a:hover::before,
+nav ul li a:focus::before {
+  width: 100%;
+  left: 0;
+}
+
+nav ul li a.projects:hover,
+nav ul li a.projects:focus {
+  color: #5fa698;
+}
+
+nav ul li a.projects:hover::before,
+nav ul li a.projects:focus::before {
+  background-color: #5fa698;
+}
+
+nav ul li a.info:hover,
+nav ul li a.info:focus {
+  color: #8a92ad;
+}
+
+nav ul li a.info:hover::before,
+nav ul li a.info:focus::before {
+  background-color: #8a92ad;
+}
+
+nav ul li a.contact:hover,
+nav ul li a.contact:focus {
+  color: #cdd5f2;
+}
+
+nav ul li a.contact:hover::before,
+nav ul li a.contact:focus::before {
+  background-color: #cdd5f2;
+}
+
 
 /* body */
 #intro {
