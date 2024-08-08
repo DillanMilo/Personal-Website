@@ -5,7 +5,7 @@ import "../Global.css";
 
 const Projects: React.FC = () => {
   const [visibleImage, setVisibleImage] = useState<string | null>(null);
-  const animatedTitle = useAnimation("<<Projects>", 250);
+  const animatedTitle = useAnimation("PProjects", 250);
 
   const showImage = (project: string) => {
     setVisibleImage(project);

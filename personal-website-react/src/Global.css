@@ -452,6 +452,9 @@ h1.heading {
     padding: 1rem; 
     transition: all 0.3s ease;
   }
+  .animated-title {
+    font-size: .1rem;
+  }
 }
 
 
