@@ -341,13 +341,6 @@ span.infos {
   color: #5fa698;
 }
 
-.skills {
-  text-decoration: none;
-  color: aliceblue;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 30px;
-}
-
 #info-content p {
   color: aliceblue;
   font-family: 'Roboto Mono', monospace;
@@ -357,6 +350,20 @@ span.infos {
 .infotitle {
   color: #8a92ad;
   font-family: 'Roboto Mono', monospace;
+}
+.skills {
+  text-decoration: underline;
+  color: #5fa698;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+}
+
+.skillss {
+  color: #5fa698;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
 }
 
 /* contact page */
