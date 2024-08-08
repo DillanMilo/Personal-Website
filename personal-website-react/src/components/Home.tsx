@@ -36,7 +36,6 @@ const Home: React.FC = () => {
           <span>{nameText}</span>
         </h1>
         <h1 className="build">I build stuff on the web.</h1>
-        <br />
         <p className="intro-text">
           I’m a passionate software engineer dedicated to bridging creativity
           and technology. With a background steeped in both artistic and
