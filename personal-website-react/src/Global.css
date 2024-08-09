@@ -266,7 +266,7 @@ h3 {
 }
 .tap {
   color: #8a92ad;
-  font-size: 30px;
+  font-size: 1.7rem;
   text-decoration: underline;
   margin-bottom: 6rem;
   margin-top: 4rem;
@@ -470,6 +470,7 @@ h1.heading {
   .projectbutton {
     padding: 1rem; 
     transition: all 0.3s ease;
+    border-width: 0.2rem;
   }
   .animated-title {
     font-size: .1rem;
@@ -483,7 +484,8 @@ h1.heading {
     font-size: 14px;
   }
   .projectbutton {
-    padding: 20px;
+    padding: 0.5rem;
+    border-width: 0.2rem;
   }
   #intro {
     padding: 60px 10px;
