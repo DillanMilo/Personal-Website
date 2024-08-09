@@ -19,7 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.21.11"
+    "@babel/plugin-transform-private-property-in-object": "^7.21.11",
+    "vercel": "^35.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
