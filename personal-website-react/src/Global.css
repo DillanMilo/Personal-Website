@@ -93,12 +93,12 @@ nav ul li a.projects:active {
 nav ul li a.info:hover,
 nav ul li a.info:active {
   text-decoration: none;
-  text-decoration-color: #8a92ad; 
+  text-decoration-color: #83e8d3; 
 }
 nav ul li a.contact:hover,
 nav ul li a.contact:active {
   text-decoration: underline;
-  text-decoration-color: #cdd5f2; 
+  text-decoration-color: #83e8d3; 
 }
 
 /* Animate underline from center */
@@ -128,32 +128,32 @@ nav ul li a:focus::before {
 
 nav ul li a.projects:hover,
 nav ul li a.projects:focus {
-  color: #96f2df;
+  color: #83e8d3;
 }
 
 nav ul li a.projects:hover::before,
 nav ul li a.projects:focus::before {
-  background-color: #9ceddd;
+  background-color: #83e8d3;
 }
 
 nav ul li a.info:hover,
 nav ul li a.info:focus {
-  color: #8a92ad;
+  color: #83e8d3;
 }
 
 nav ul li a.info:hover::before,
 nav ul li a.info:focus::before {
-  background-color: #8a92ad;
+  background-color:#83e8d3;
 }
 
 nav ul li a.contact:hover,
 nav ul li a.contact:focus {
-  color: #cdd5f2;
+  color: #83e8d3;
 }
 
 nav ul li a.contact:hover::before,
 nav ul li a.contact:focus::before {
-  background-color: #cdd5f2;
+  background-color: #83e8d3;
 }
 
 
@@ -215,7 +215,7 @@ h3 {
 
 /* Hover and active styles for the project button */
 .projectbutton:hover, .projectbutton:active {
-  background-color: #5fa698; 
+  background-color: #83e8d3; 
 }
 
 .projectbutton:hover a, .projectbutton:active a {
@@ -320,7 +320,7 @@ h3 {
 }
 
 .projectbutton:hover a {
-  color: #3582d9;
+  color: #373b3e;
 }
 
 .project-box {
@@ -328,7 +328,7 @@ h3 {
   border-radius: 10px;
   padding: 15px; /* Adjusted padding to make it smaller */
   transition: all 0.3s ease;
-  margin: 20px 0; /* Adjust as needed */
+  margin: 20px 0; 
 }
 
 .project-box a {
