@@ -1,0 +1,537 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific selectors). */
+body {
+  margin: 25px;
+  background-color: #0e192d;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* Applies to all elements with <... class="someclass"> specified. */
+.someclass { color: red; }
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: green; }
+
+/* Back Button */
+.back-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #5fa698;
+  font-size: 20px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.back-button::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #5fa698;
+  transition: all 0.6s ease;
+}
+
+.back-button:hover::before,
+.back-button:focus::before {
+  width: 100%;
+  left: 0;
+}
+
+.back-button:hover,
+.back-button:focus {
+  color: #83e8d3;
+}
+
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #86ecd7;
+  transition: text-decoration-color 0.3s ease;
+}
+nav ul li a:hover,
+nav ul li a:active {
+  text-decoration:none;
+  text-decoration-color: #83e8d3; 
+}
+
+nav ul li a.projects:hover,
+nav ul li a.projects:active {
+  text-decoration: none;
+  text-decoration-color: #83e8d3; 
+}
+nav ul li a.info:hover,
+nav ul li a.info:active {
+  text-decoration: none;
+  text-decoration-color: #83e8d3; 
+}
+nav ul li a.contact:hover,
+nav ul li a.contact:active {
+  text-decoration: underline;
+  text-decoration-color: #83e8d3; 
+}
+
+/* Animate underline from center */
+nav ul li a {
+  position: relative;
+  color: #5fa698; /* Default link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #5fa698; /* Default underline color */
+  transition: all 0.6s ease;
+}
+
+nav ul li a:hover::before,
+nav ul li a:focus::before {
+  width: 100%;
+  left: 0;
+}
+
+nav ul li a.projects:hover,
+nav ul li a.projects:focus {
+  color: #83e8d3;
+}
+
+nav ul li a.projects:hover::before,
+nav ul li a.projects:focus::before {
+  background-color: #83e8d3;
+}
+
+nav ul li a.info:hover,
+nav ul li a.info:focus {
+  color: #83e8d3;
+}
+
+nav ul li a.info:hover::before,
+nav ul li a.info:focus::before {
+  background-color:#83e8d3;
+}
+
+nav ul li a.contact:hover,
+nav ul li a.contact:focus {
+  color: #83e8d3;
+}
+
+nav ul li a.contact:hover::before,
+nav ul li a.contact:focus::before {
+  background-color: #83e8d3;
+}
+
+
+/* body */
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 80px 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1.name {
+  color: #cdd5f2;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 80px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+h3 {
+  color: #5fa698;
+  font-size: 20px;
+}
+
+.intro-text {
+  color: #8a92ad;
+  font-size: 25px;
+  margin-bottom: 100px !important;
+}
+
+.intro-text span {
+  color: #5fa698;
+}
+
+.build {
+  color: #8a92ad;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.projectbutton {
+  border: 1rem solid #5fa698;
+  border-radius: 10px;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.projectbutton a {
+  text-decoration: none;
+  color: #5fa698;
+}
+
+.projectbutton h2 {
+  margin: 0;
+}
+
+/* Hover and active styles for the project button */
+.projectbutton:hover, .projectbutton:active {
+  background-color: #83e8d3; 
+}
+
+.projectbutton:hover a, .projectbutton:active a {
+  color: #333; 
+}
+
+#social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#social ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* Projects Page */
+#projects {
+  margin: 25px;
+  background-color: #0e192d;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0px;
+}
+
+.projects {
+  color: #5fa698;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+  font-weight:normal;
+  text-decoration: underline;
+  
+}
+.projectdesc {
+  text-decoration: none;
+  font-size: 20px;
+  color: #8a92ad;
+}
+.project-desc {
+  font-size: 1.5rem; 
+  color: white;
+}
+
+.game-hub {
+  text-decoration: underline;
+  color: #8a92ad;
+}
+.tap {
+  color: #8a92ad;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+}
+
+.project a {
+  color:#8a92ad; 
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.project p {
+  color: white;
+  font-size: large;
+}
+
+.game-hub:hover {
+  color:#1157a7;
+}
+
+.back-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #5fa698;
+  font-size: 20px;
+}
+
+/* Game-Hub Projects Box */
+.projectbutton {
+  border: 1rem solid #5fa698;
+  border-radius: 10px;
+  padding: 15px; /* Adjusted padding to make it smaller */
+  transition: all 0.3s ease;
+}
+
+.projectbutton a {
+  text-decoration: none;
+  color: #5fa698;
+  font-size: 18px; /* Adjusted font size to make it smaller */
+}
+
+.projectbutton h2 {
+  margin: 0;
+}
+
+.projectbutton:hover {
+  background-color: #5fa698;
+  color: #3582d9;
+}
+
+.projectbutton:hover a {
+  color: #373b3e;
+}
+
+.project-box {
+  border: 2px solid #5fa698;
+  border-radius: 10px;
+  padding: 15px; /* Adjusted padding to make it smaller */
+  transition: all 0.3s ease;
+  margin: 20px 0; 
+}
+
+.project-box a {
+  text-decoration: none;
+  color: #5fa698;
+  font-size: 2rem; /* Adjusted font size to make it smaller */
+}
+
+.project-box:hover {
+  background-color: #5fa698;
+}
+
+
+
+
+/* about me (info) */
+#info {
+  margin-top: 60px;
+}
+
+.skillsh {
+  text-decoration: none;
+  color: #8a92ad;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+}
+
+span.infos {
+  color: #5fa698;
+}
+
+#info-content p {
+  color: aliceblue;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+.infotitle {
+  color: #8a92ad;
+  font-family: 'Roboto Mono', monospace;
+}
+.skills {
+  text-decoration: underline;
+  color: #5fa698;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+}
+
+.skillss {
+  color: #5fa698;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+}
+
+/* contact page */
+.outro {
+  color: #8a92ad;
+  font-size: 30px;
+}
+
+.contacts ul li {
+  list-style: none;
+  color: #cdd5f2;
+  font-size: 30px;
+}
+
+h1.heading {
+  color: #5fa698;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.contacts a {
+  color: #5fa698;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  color: #cdd5f2;
+  text-decoration: none;
+}
+
+.contacts ul li img {
+  width: 30px;
+  height: auto;
+  position: relative;
+  top: 9px; /* Adjust this value to move the icon lower */
+}
+
+/* Add spacing between text and image */
+.contact-link {
+  margin-left: 10px;
+}
+
+.social-icon {
+  margin-left: 5px; 
+}
+
+/* Media queries for different screen sizes */
+
+/* For small devices (phones, 0px and up) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+  h1.name {
+    font-size: 5em;
+  }
+  h1.build {
+    font-size: 5em;
+  }
+  .intro-text {
+    font-size: 1.5rem;
+  }
+  .projects h1 {
+    font-size: 1rem; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+
+  h3.tap {
+    font-size: 1.5rem;
+  }
+  .skills {
+    font-size: 1.2rem;
+    margin-left: 0;
+    padding-left: -1rem;
+  }
+  ul {
+    padding-left: 0.5rem;
+  }
+  .project-desc {
+    font-size: 1rem; 
+    color: white;
+  }
+  .projectbutton {
+    padding: 1rem; 
+    transition: all 0.3s ease;
+    border-width: 0.2rem;
+  }
+  .animated-title {
+    font-size: .1rem;
+  }
+}
+
+
+/* For medium devices (tablets, 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .projectbutton {
+    padding: 0.5rem;
+    border-width: 0.2rem;
+  }
+  #intro {
+    padding: 60px 10px;
+  }
+  .projects h1 {
+    font-size: 2rem; /* Adjust font size for projects header */
+  }
+}
+
+/* For large devices (desktops, 769px and up) */
+@media (min-width: 769px) {
+  body {
+    font-size: 16px;
+  }
+  .projectbutton {
+    padding: 30px;
+    border-width: 0.2rem;
+  }
+  #intro {
+    padding: 80px 20px;
+  }
+  .projects h1 {
+    font-size: 2.5rem; /* Adjust font size for projects header */
+  }
+}
+
+/* Additional styles for larger screens to prevent horizontal scrolling */
+@media (min-width: 1024px) {
+  body {
+    max-width: 100vw; /* Ensure the body does not exceed the viewport width */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  .navbar, .footer, .contacts ul {
+    max-width: 1200px; /* Optional: Set a maximum width for key elements */
+    margin: 0 auto; /* Center align key elements */
+  }
+}
+
+.outro {
+  font-size: 20px;
+}
+
+.contacts ul li {
+  font-size: 20px;
+}
+
+.contacts a {
+  font-size: 20px;
+}
