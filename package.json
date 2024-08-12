@@ -27,6 +27,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "debug": "node --inspect-brk ./node_modules/.bin/react-scripts debug",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
