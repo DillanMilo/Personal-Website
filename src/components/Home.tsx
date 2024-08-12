@@ -4,8 +4,8 @@ import "../Global.css";
 
 // Import images
 import twitterIcon from "../Images/x-twitter-copy.svg";
-import githubIcon from "/Users/dillanmilosevich/Personal-Website/personal-website-react/src/Images/github-3-copy.svg";
-import linkedinIcon from "/Users/dillanmilosevich/Personal-Website/personal-website-react/src/Images/linkedin-copy.svg";
+import githubIcon from "../Images/github-3-copy.svg";
+import linkedinIcon from "../Images/linkedin-copy.svg";
 
 const Home: React.FC = () => {
   const nameText = useAnimation("DDillan.", 200);
