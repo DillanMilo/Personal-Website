@@ -1,7 +1,4 @@
 {
-  "builds": [
-    { "src": "personal-website-react/src/index.tsx", "use": "@vercel/static-build" }
-  ],
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]
