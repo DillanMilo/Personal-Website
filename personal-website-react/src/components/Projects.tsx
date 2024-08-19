@@ -42,6 +42,19 @@ const Projects: React.FC = () => {
             This is my Game Hub project, showcasing various games and features.
           </p>
         </div>
+        <div className="project-box">
+          <a
+            href="https://reddit-mini-app.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="game-hub">-Reddit Mini</div>
+          </a>
+          <p className="project-desc">
+            A streamlined React app that allows users to browse and interact
+            with Reddit content in a minimalist interface.
+          </p>
+        </div>
       </div>
     </div>
   );
