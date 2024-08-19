@@ -1,89 +1,46 @@
-# Dillan Milosevich's Portfolio
+# Getting Started with Create React App
 
-Welcome to my portfolio! This project showcases my skills, projects, and a bit about myself.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
-- [About Me]
-- [Projects]
-- [Contact]
+## Available Scripts
 
-## About Me
-I'm Dillan Milosevich, a junior software engineer passionate about blending technology and creativity. This portfolio reflects my journey in software engineering and my dedication to crafting innovative solutions.
+In the project directory, you can run:
 
-## Projects
-Explore my projects and see the creative and technical aspects come together:
-- **Project 1: [Trail Blazers]**
-  Trailbalzers is a fun commuity driven club page that brings together adventure and community.
-  **features**
-  **part 1**
-  Discover stunning images that will ignite your wunderlust
-  **Part 2**
-  Immerse yourlsef in Trailblazers community
-  **Part 3**
-  Find contact info and social media for info and updates
+### `npm start`
 
-  **Technology used**
-  HTML
-  CSS
-  Google Fonts
-  SVG and PNG images
-  
-- **Project 2: [Blossom & Bloom]**
-  A delightful and clean floral website.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-  **Part 1**
-  Incredible clickable images that take you to the requested plants.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-  **Part 2**
-  Meeting the team
+### `npm test`
 
-  **Technology used**
-  HTML
-  CSS
-  Google Fonts
-  SVG and PNG images
-  
-- **Project 3: [Tea Cozy]**
-  Tea Cozy is tasteful and refreshing tea company page.
-  **Part 1**
-  Immediate mission statement with eye catching navbar.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  **Part 2**
-  Teas of the month
+### `npm run build`
 
-  **Part 3**
-  Locations and contact info
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-  **Technology used**
-  HTML
-  CSS
-  Google Fonts
-  SVG and PNG images 
-  
-- **Project 4: [Fotomatic]**
-  Fotomatic is a captivating photography company landing page.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-  **Part 1**
-  Immediate attention grabbing pictures and waiting list option.
-  
-  **Part 2**
-  Advertising of the lastest products.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-  **Part 3**
-  Filter demonstartions
+### `npm run eject`
 
-  **Technology used**
-  HTML
-  CSS
-  GoogleFonts
-  SVG and PNG images
-  
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Contact
-Let's connect! Reach out to me through the following channels:
-- **Email:** [Dillanxx@icloud.com](mailto:Dillanxx@icloud.com)
-- **Twitter:** [@dillanx1x](https://twitter.com/dillanx1x)
-- **GitHub:** [Dillan's GitHub](https://github.com/dashboard)
-- **LinkedIn:** [Dillan's LinkedIn](https://www.linkedin.com/feed/)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Feel free to explore my portfolio and get in touch for collaboration or just to say hello!
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
