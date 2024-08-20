@@ -389,12 +389,27 @@ span.infos {
 .outro {
   color: #8a92ad;
   font-size: 30px;
+  margin-bottom: 20px; /* Add some space below the outro text */
+}
+
+/* Flexbox container to align contact details to the left */
+.contact-body {
+  display: flex;
+  justify-content: flex-start; /* Align all contact details to the left */
+  flex-direction: column; /* Stack the items vertically */
+  align-items: flex-start; /* Ensure items align to the left */
+}
+
+.contacts ul {
+  padding-left: 0;
+  margin: 0; /* Remove default margin */
 }
 
 .contacts ul li {
   list-style: none;
   color: #cdd5f2;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 h1.heading {
@@ -420,7 +435,6 @@ h1.heading {
   top: 9px; /* Adjust this value to move the icon lower */
 }
 
-/* Add spacing between text and image */
 .contact-link {
   margin-left: 10px;
 }
@@ -428,6 +442,7 @@ h1.heading {
 .social-icon {
   margin-left: 5px; 
 }
+
 
 /* Media queries for different screen sizes */
 
@@ -443,7 +458,7 @@ h1.heading {
     font-size: 5em;
   }
   .intro-text {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
   }
   .projects h1 {
     font-size: 1rem; 
