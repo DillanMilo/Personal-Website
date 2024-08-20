@@ -21,11 +21,11 @@
     "devDependencies": {
         "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
         "@babel/plugin-transform-private-property-in-object": "^7.21.11",
-        "vercel": "^35.2.3"
+        "vercel": "^32.3.0"
     },
     "scripts": {
         "start": "react-scripts start",
-          "build": "react-scripts build --public-url https://personal-website-eight-iota-93.vercel.app/",
+        "build": "react-scripts build --public-url https://personal-website-eight-iota-93.vercel.app/",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
