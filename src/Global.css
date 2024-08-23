@@ -156,6 +156,13 @@ nav ul li a.contact:focus::before {
   background-color: #83e8d3;
 }
 
+/*animated info */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
 
 /* body */
 #intro {
