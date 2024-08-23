@@ -70,7 +70,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      <footer className="footer fade-in">
+      <footer className="footer">
         <div id="social">
           <ul>
             <li>
