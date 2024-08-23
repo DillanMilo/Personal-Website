@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useAnimation } from "../Hooks/useAnimation";
 import "../Global.css";
 
@@ -9,6 +9,23 @@ import linkedinIcon from "../Images/linkedin-copy.svg";
 
 const Home: React.FC = () => {
   const nameText = useAnimation("DDillan.", 200);
+  const introTextRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const animateElements = () => {
+      if (introTextRef.current) {
+        const elements = introTextRef.current.querySelectorAll(".fade-in");
+        elements.forEach((el: Element, index: number) => {
+          setTimeout(() => {
+            (el as HTMLElement).style.opacity = "1";
+            (el as HTMLElement).style.transform = "translateY(0)";
+          }, index * 400); // 200ms delay between each element
+        });
+      }
+    };
+
+    animateElements();
+  }, []);
 
   return (
     <div className="body">
@@ -30,13 +47,13 @@ const Home: React.FC = () => {
         </div>
       </header>
 
-      <section id="intro">
+      <section id="intro" ref={introTextRef}>
         <h3>Heya, my name is</h3>
         <h1 className="name">
           <span>{nameText}</span>
         </h1>
-        <h1 className="build">I build stuff on the web.</h1>
-        <p className="intro-text">
+        <h1 className="build fade-in">I build stuff on the web.</h1>
+        <p className="intro-text fade-in">
           I’m a passionate software engineer dedicated to bridging creativity
           and technology. With a background steeped in both artistic and
           technical disciplines, I thrive on transforming innovative ideas into
@@ -46,14 +63,14 @@ const Home: React.FC = () => {
           <span> precision and flair.</span>
         </p>
         <br />
-        <div className="projectbutton">
+        <div className="projectbutton fade-in">
           <h2>
             <a href="/projects">Check out my projects</a>
           </h2>
         </div>
       </section>
 
-      <footer className="footer">
+      <footer className="footer fade-in">
         <div id="social">
           <ul>
             <li>
