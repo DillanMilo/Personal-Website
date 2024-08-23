@@ -8,16 +8,6 @@ import githubIcon from "../Images/github-3-copy.svg";
 import linkedinIcon from "../Images/linkedin-copy.svg";
 
 const Contact: React.FC = () => {
-  // Function to handle ENS click
-  const handleENSClick = () => {
-    window.open("https://app.ens.domains/dillanxx.eth", "_blank");
-  };
-
-  // Function to handle SNS click
-  const handleSNSClick = () => {
-    window.open("https://solscan.io/address/your-solana-address", "_blank");
-  };
-
   return (
     <div>
       <header>
@@ -61,7 +51,7 @@ const Contact: React.FC = () => {
               Come over to
               <span className="contact-link">
                 <a
-                  href="https://github.com/dashboard"
+                  href="https://github.com/DillanMilo"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -88,16 +78,26 @@ const Contact: React.FC = () => {
             <h2 className="heading">Web 3</h2>
             <li>
               <strong>My ENS:</strong>{" "}
-              <span className="contact-link" onClick={handleENSClick}>
+              <a
+                href="https://app.ens.domains/dillanxx.eth"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
                 dillanxx.eth
-              </span>
+              </a>
             </li>
             <br />
             <li>
               <strong>My SNS:</strong>{" "}
-              <span className="contact-link" onClick={handleSNSClick}>
+              <a
+                href="https://sns.id/domain?domain=dillanxx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
                 dillanxx.sol
-              </span>
+              </a>
             </li>
           </ul>
         </div>
