@@ -8,6 +8,16 @@ import githubIcon from "../Images/github-3-copy.svg";
 import linkedinIcon from "../Images/linkedin-copy.svg";
 
 const Contact: React.FC = () => {
+  // Function to handle ENS click
+  const handleENSClick = () => {
+    window.open("https://app.ens.domains/dillanxx.eth", "_blank");
+  };
+
+  // Function to handle SNS click
+  const handleSNSClick = () => {
+    window.open("https://solscan.io/address/your-solana-address", "_blank");
+  };
+
   return (
     <div>
       <header>
@@ -75,6 +85,20 @@ const Contact: React.FC = () => {
             </li>
             <br />
             <br />
+            <h2 className="heading">Web 3</h2>
+            <li>
+              <strong>My ENS:</strong>{" "}
+              <span className="contact-link" onClick={handleENSClick}>
+                dillanxx.eth
+              </span>
+            </li>
+            <br />
+            <li>
+              <strong>My SNS:</strong>{" "}
+              <span className="contact-link" onClick={handleSNSClick}>
+                dillanxx.sol
+              </span>
+            </li>
           </ul>
         </div>
       </div>
