@@ -67,7 +67,7 @@ const Home: React.FC = () => {
             </li>
             <li>
               <a
-                href="https://github.com/dashboard"
+                href="https://github.com/DillanMilo"
                 target="_blank"
                 rel="noopener noreferrer"
               >

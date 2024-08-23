@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
               <strong>Email me:</strong>{" "}
               <a href="mailto:Dillanxx@icloud.com">Dillanxx@icloud.com</a>
             </li>
-            <br />
+
             <li>
               <strong>Shoot me a DM on </strong>
               <span className="contact-link">
@@ -45,13 +45,12 @@ const Contact: React.FC = () => {
                 </a>
               </span>
             </li>
-            <br />
-            <br />
+
             <li>
               Come over to
               <span className="contact-link">
                 <a
-                  href="https://github.com/dashboard"
+                  href="https://github.com/DillanMilo"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -59,8 +58,7 @@ const Contact: React.FC = () => {
                 </a>
               </span>
             </li>
-            <br />
-            <br />
+
             <li>
               Say "hey" on
               <span className="contact-link">
@@ -74,7 +72,30 @@ const Contact: React.FC = () => {
               </span>
             </li>
             <br />
-            <br />
+            <h2 className="heading">Web 3</h2>
+            <li>
+              <strong>My ENS:</strong>{" "}
+              <a
+                href="https://app.ens.domains/dillanxx.eth"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                dillanxx.eth
+              </a>
+            </li>
+
+            <li>
+              <strong>My SNS:</strong>{" "}
+              <a
+                href="https://sns.id/domain?domain=dillanxx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                dillanxx.sol
+              </a>
+            </li>
           </ul>
         </div>
       </div>

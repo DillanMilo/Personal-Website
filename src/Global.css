@@ -418,6 +418,12 @@ h1.heading {
   font-size: 30px;
 }
 
+h2.heading {
+  color: #5fa698;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
 .contacts a {
   color: #5fa698;
   text-decoration: none;
