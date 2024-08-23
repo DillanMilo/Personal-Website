@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
               <strong>Email me:</strong>{" "}
               <a href="mailto:Dillanxx@icloud.com">Dillanxx@icloud.com</a>
             </li>
-            <br />
+
             <li>
               <strong>Shoot me a DM on </strong>
               <span className="contact-link">
@@ -45,8 +45,7 @@ const Contact: React.FC = () => {
                 </a>
               </span>
             </li>
-            <br />
-            <br />
+
             <li>
               Come over to
               <span className="contact-link">
@@ -59,8 +58,7 @@ const Contact: React.FC = () => {
                 </a>
               </span>
             </li>
-            <br />
-            <br />
+
             <li>
               Say "hey" on
               <span className="contact-link">
@@ -74,7 +72,6 @@ const Contact: React.FC = () => {
               </span>
             </li>
             <br />
-            <br />
             <h2 className="heading">Web 3</h2>
             <li>
               <strong>My ENS:</strong>{" "}
@@ -87,7 +84,7 @@ const Contact: React.FC = () => {
                 dillanxx.eth
               </a>
             </li>
-            <br />
+
             <li>
               <strong>My SNS:</strong>{" "}
               <a
