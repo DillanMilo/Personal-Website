@@ -49,11 +49,8 @@ const Projects: React.FC = () => {
         <h1 className="projects">
           <span id="animated-title">{animatedTitle}</span>
         </h1>
-        <br />
       </header>
       <h3 className="tap">Tap on any below to view</h3>
-      <br />
-      <br />
       <div className="projects" ref={projectsContentRef}>
         <div className="project-box fade-in">
           <a
