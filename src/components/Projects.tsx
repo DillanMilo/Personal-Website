@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
   const projectsContentRef = useRef<HTMLDivElement>(null);
   const backButtonRef = useRef<HTMLAnchorElement>(null);
   const [visibleImage, setVisibleImage] = useState<string | null>(null);
-  const animatedTitle = useAnimation("PProjects", 250); // Adjusted the text to "Projects"
+  const animatedTitle = useAnimation("Projects", 250);
 
   const showImage = (project: string) => {
     setVisibleImage(project);
@@ -18,22 +18,20 @@ const Projects: React.FC = () => {
       if (projectsContentRef.current) {
         const elements =
           projectsContentRef.current.querySelectorAll(".fade-in");
-        // Cast to NodeListOf<HTMLElement>
         (elements as NodeListOf<HTMLElement>).forEach((el, index) => {
           setTimeout(() => {
             el.style.opacity = "1";
             el.style.transform = "translateY(0)";
-          }, index * 200); // 200ms delay between each element
+          }, index * 200);
         });
       }
-      // Animate back button
       if (backButtonRef.current) {
         setTimeout(() => {
           if (backButtonRef.current) {
             backButtonRef.current.style.opacity = "1";
             backButtonRef.current.style.transform = "translateY(0)";
           }
-        }, 0); // No delay for the back button
+        }, 0);
       }
     };
 
@@ -64,6 +62,7 @@ const Projects: React.FC = () => {
             This is my Game Hub project, showcasing various games and features.
           </p>
         </div>
+
         <div className="project-box fade-in">
           <a
             href="https://reddit-mini-app.vercel.app/"
@@ -75,6 +74,22 @@ const Projects: React.FC = () => {
           <p className="project-desc fade-in">
             A streamlined React app that allows users to browse and interact
             with Reddit content in a minimalist interface.
+          </p>
+        </div>
+
+        <div className="project-box fade-in">
+          <a
+            href="https://jamming-with-spotify-eight.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="game-hub">-JamMming</div>
+          </a>
+          <p className="project-desc fade-in">
+            A fun music app that lets you create personalized playlists using
+            the Spotify API. Seamlessly connect to your Spotify account to
+            search for songs and build playlists, which you can then save
+            directly to your Spotify library.
           </p>
         </div>
       </div>
