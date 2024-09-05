@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
   const projectsContentRef = useRef<HTMLDivElement>(null);
   const backButtonRef = useRef<HTMLAnchorElement>(null);
   const [visibleImage, setVisibleImage] = useState<string | null>(null);
-  const animatedTitle = useAnimation("Projects", 250);
+  const animatedTitle = useAnimation("PProjects", 250);
 
   const showImage = (project: string) => {
     setVisibleImage(project);
