@@ -128,7 +128,7 @@ const Contact: React.FC = () => {
             </li>
 
             <li className="fade-in">
-              <strong> My Base ENS</strong>
+              <strong> My Base ENS:</strong>
               <a 
               href="https://app.ens.domains/dillanxx.base.eth"
               target="-blank"
