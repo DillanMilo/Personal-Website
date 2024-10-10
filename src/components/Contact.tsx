@@ -126,6 +126,18 @@ const Contact: React.FC = () => {
                 dillanxx.sol
               </a>
             </li>
+
+            <li className="fade-in">
+              <strong> My Base ENS</strong>
+              <a 
+              href="https://app.ens.domains/dillanxx.base.eth"
+              target="-blank"
+              rel="noopener noreferrer"
+              className="contact-link fade-in"
+              >
+                dillanxx.base.eth
+                </a>
+            </li>
           </ul>
         </div>
       </div>
