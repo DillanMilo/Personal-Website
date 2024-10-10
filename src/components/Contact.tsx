@@ -134,7 +134,9 @@ const Contact: React.FC = () => {
               target="-blank"
               rel="noopener noreferrer"
               className="contact-link fade-in"
-              ></a>
+              >
+                dillanxx.base.eth
+                </a>
             </li>
           </ul>
         </div>
