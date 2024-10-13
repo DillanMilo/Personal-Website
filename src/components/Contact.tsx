@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
             </li>
 
             <li className="fade-in">
-              <strong>Call me at: </strong>
+              <strong>Call me: </strong>
               <a href="tel:+12812108139" className="fade-in">
                 (281) 210-8139
               </a>
