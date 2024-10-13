@@ -64,6 +64,13 @@ const Contact: React.FC = () => {
             </li>
 
             <li className="fade-in">
+              <strong>Call me: </strong>
+              <a href="tel:+12812108139" className="fade-in">
+                (281) 210-8139
+              </a>
+            </li>
+
+            <li className="fade-in">
               <strong>Shoot me a DM on </strong>
               <span className="contact-link fade-in">
                 <a
@@ -129,14 +136,14 @@ const Contact: React.FC = () => {
 
             <li className="fade-in">
               <strong> My Base ENS:</strong>
-              <a 
-              href="https://app.ens.domains/dillanxx.base.eth"
-              target="-blank"
-              rel="noopener noreferrer"
-              className="contact-link fade-in"
+              <a
+                href="https://app.ens.domains/dillanxx.base.eth"
+                target="-blank"
+                rel="noopener noreferrer"
+                className="contact-link fade-in"
               >
                 dillanxx.base.eth
-                </a>
+              </a>
             </li>
           </ul>
         </div>
