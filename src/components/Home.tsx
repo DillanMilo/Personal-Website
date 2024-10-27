@@ -93,7 +93,7 @@ const Home: React.FC = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/feed/"
+                href="https://www.linkedin.com/in/dillan-milosevich-9a817891/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
