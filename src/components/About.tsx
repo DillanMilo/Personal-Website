@@ -104,28 +104,11 @@ const About: React.FC = () => {
           <br />
           <ul>
             <li className="skillss fade-in">
-              Currently studying back-end technologies to become a full-stack
-              developer
-            </li>
-            <li className="skillss fade-in">
-              Hands-on experience with Node.js and Express.js
-            </li>
-            <li className="skillss fade-in">
-              Working knowledge of database management (e.g., MongoDB, SQL)
-            </li>
-          </ul>
-          <br />
-          <li className="skills fade-in">Future Goals</li>
-          <br />
-          <ul>
-            <li className="skillss fade-in">
-              Complete full-stack development training and gain proficiency in
-              back-end technologies
-            </li>
-            <br />
-            <li className="skillss fade-in">
-              Continuously improve and stay updated with the latest trends in
-              web development
+              Currently deepening my knowledge of back-end technologies to
+              become a full-stack developer, with practical experience in
+              Node.js, Express.js, and database management (MongoDB, SQL). This
+              continuous learning enhances my ability to build more robust and
+              scalable applications.
             </li>
           </ul>
         </ul>
